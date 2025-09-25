@@ -57,6 +57,7 @@ El código incluye además un diálogo (PracIndexDialog) que funciona como índi
 <img width="952" height="451" alt="Captura de pantalla 2025-09-25 130340" src="https://github.com/user-attachments/assets/9d4f376c-0e32-4cc2-9e5a-60013742b444" />
 <img width="931" height="508" alt="Captura de pantalla 2025-09-25 130514" src="https://github.com/user-attachments/assets/9e86539c-65fb-4471-8ef6-fd9a83018e58" />
 <img width="959" height="482" alt="Captura de pantalla 2025-09-25 130504" src="https://github.com/user-attachments/assets/a06e836a-b512-4aab-a975-0fa03870455e" />
+<img width="378" height="367" alt="Captura de pantalla 2025-09-25 130530" src="https://github.com/user-attachments/assets/7f2db3da-d6e4-4a83-b4f7-00d57d044193" />
 
 # Documento de reflexión (6 preguntas)
 1. ¿Cómo organizaste la navegación para que el Hub, el índice de prácticas y el proyecto se integraran sin duplicar código?
@@ -82,7 +83,8 @@ Se utilizó ampliamente la combinación de SnackBar y AlertDialog para ofrecer r
 6. Si pudieras persistir datos, ¿qué mejorarías primero y con qué enfoque (sin implementarlo)?
 
 Si se incorporara persistencia, lo primero sería almacenar las notas rápidas y los puntajes de los juegos, ya que son datos que pierden su valor al cerrar la app. Se podría usar SharedPreferences para datos simples como el puntaje o la preferencia de modo oscuro, y SQLite o Hive para las notas y registros más estructurados, permitiendo búsquedas y ordenamiento. Esto permitiría que al abrir la app los usuarios recuperen automáticamente sus notas, configuraciones y resultados anteriores. Además, la persistencia podría extenderse al historial de IMC calculado o elecciones previas en los juegos, mejorando la experiencia a largo plazo y permitiendo análisis históricos, sin comprometer la estructura modular de los widgets ya desarrollados.
-<img width="378" height="367" alt="Captura de pantalla 2025-09-25 130530" src="https://github.com/user-attachments/assets/7f2db3da-d6e4-4a83-b4f7-00d57d044193" />
+
+
 
 
 
